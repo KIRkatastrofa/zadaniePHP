@@ -1,0 +1,1 @@
+SELECT fioauthors, count(fioauthors) FROM books_authors group by fioauthors HAVING count(fioauthors)<=6
